@@ -1,0 +1,57 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🇮🇳 Student Registration - CRUD App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📘 Student Registration Form 🇮🇳</h1>
+    
+    <form id="studentForm">
+      <div class="form-group">
+        <input type="text" id="fullName" required />
+        <label for="fullName">👤 Full Name</label>
+      </div>
+
+      <div class="form-group">
+        <input type="email" id="email" required />
+        <label for="email">📧 Email</label>
+      </div>
+
+      <div class="form-group">
+        <input type="tel" id="phone" required />
+        <label for="phone">📱 Phone Number</label>
+      </div>
+
+      <div class="form-group">
+        <input type="number" id="age" required />
+        <label for="age">🎂 Age</label>
+      </div>
+
+      <div class="form-group">
+        <input type="text" id="course" required />
+        <label for="course">📘 Course</label>
+      </div>
+
+      <div class="form-group">
+        <input type="text" id="enroll" required />
+        <label for="enroll">🎓 Enrollment No.</label>
+      </div>
+
+      <button type="submit">➕ Add Student</button>
+    </form>
+
+    <div id="studentList">
+      <!-- Pre-filled records will go here -->
+    </div>
+  </div>
+  <link rel="stylesheet" href="style.css">
+
+
+  <script src="script.js"></script>
+</body>
+</html>
